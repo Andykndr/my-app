@@ -43,6 +43,8 @@ const CharInfo = ({ charId }) => {
   );
 };
 
+console.log('asd');
+
 const View = ({ char }) => {
   const { name, description, thumbnail, homepage, wiki, comics } = char;
 
